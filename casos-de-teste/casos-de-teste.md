@@ -92,7 +92,7 @@
 | Passos | 1. Acessar a página de produtos. 2. Contar os produtos apresentados. |
 | Resultado esperado | O catálogo deve apresentar 6 produtos. |
 | Resultado obtido | Quantidade de produtos correta. |
-| Status | Não executado. |
+| Status | Aprovado. |
 
 ### CT007 — Ordenação por nome (A–Z)
 
@@ -102,8 +102,8 @@
 | Pré-condições | Usuário autenticado e catálogo disponível. |
 | Passos | 1. Localizar o campo de ordenação. 2. Selecionar Name (A to Z). 3. Verificar a sequência dos produtos. |
 | Resultado esperado | Os produtos devem ser apresentados em ordem alfabética crescente. |
-| Resultado obtido | A camiseta Test.allTheThings() T-Shirt (Red) aparece por último, apesar de começar com T. |
-| Status | Reprovado. |
+| Resultado obtido | Ordenação A-Z correta. |
+| Status | Aprovado. |
 
 ### CT008 — Ordenação por nome (Z–A)
 
