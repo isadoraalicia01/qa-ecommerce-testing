@@ -102,8 +102,8 @@
 | Pré-condições | Usuário autenticado e catálogo disponível. |
 | Passos | 1. Localizar o campo de ordenação. 2. Selecionar Name (A to Z). 3. Verificar a sequência dos produtos. |
 | Resultado esperado | Os produtos devem ser apresentados em ordem alfabética crescente. |
-| Resultado obtido | Ordenação A-Z correta. |
-| Status | Aprovado*. |
+| Resultado obtido | A camiseta Test.allTheThings() T-Shirt (Red) aparece por último, apesar de começar com T. |
+| Status | Reprovado. |
 
 ### CT008 — Ordenação por nome (Z–A)
 
