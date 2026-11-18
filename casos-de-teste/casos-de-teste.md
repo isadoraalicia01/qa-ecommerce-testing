@@ -58,3 +58,14 @@
 | Resultado esperado | O sistema deve impedir o acesso e apresentar uma mensagem de erro. |
 | Resultado obtido | Acesso bloqueado e mensagem de erro apresentada. |
 | Status | Aprovado. |
+
+## 3. Resumo da execução
+
+| Indicador | Resultado |
+|---|---|
+| Total de casos executados | 4 |
+| Aprovados | 4 |
+| Reprovados | 0 |
+| Não executados | 0 |
+
+**Conclusão:** Todos os casos de teste relacionados ao módulo de login foram executados com sucesso. O comportamento observado correspondeu aos resultados esperados.
