@@ -39,8 +39,8 @@ Validar o funcionamento das principais funcionalidades da aplicação SauceDemo,
 | Aplicação | SauceDemo |
 | URL | https://www.saucedemo.com/ |
 | Tipo de acesso | Navegador web |
-| Sistema operacional | A definir durante a execução |
-| Navegador | A definir durante a execução |
+| Sistema operacional | Windows 10 |
+| Navegador | Google |
 | Tipo de teste | Manual |
 
 ## 5. Estratégia de testes
