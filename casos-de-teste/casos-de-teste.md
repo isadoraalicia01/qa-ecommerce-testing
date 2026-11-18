@@ -69,3 +69,81 @@
 | Não executados | 0 |
 
 **Conclusão:** Todos os casos de teste relacionados ao módulo de login foram executados com sucesso. O comportamento observado correspondeu aos resultados esperados.
+
+## 4. Casos de teste — Catálogo de produtos
+
+### CT005 — Exibição da lista de produtos
+
+| Campo | Descrição |
+|---|---|
+| Objetivo | Verificar se a página apresenta corretamente os produtos disponíveis. |
+| Pré-condições | Usuário autenticado no sistema. |
+| Passos | 1. Acessar a página de produtos. 2. Verificar se os produtos são exibidos. |
+| Resultado esperado | O sistema deve apresentar os produtos com nome, imagem, descrição e preço. |
+| Resultado obtido | Exibição de produtos correta. |
+| Status | Aprovado. |
+
+### CT006 — Quantidade de produtos exibidos
+
+| Campo | Descrição |
+|---|---|
+| Objetivo | Verificar a quantidade de produtos disponíveis no catálogo. |
+| Pré-condições | Usuário autenticado no sistema. |
+| Passos | 1. Acessar a página de produtos. 2. Contar os produtos apresentados. |
+| Resultado esperado | O catálogo deve apresentar 6 produtos. |
+| Resultado obtido | Quantidade de produtos correta. |
+| Status | Não executado. |
+
+### CT007 — Ordenação por nome (A–Z)
+
+| Campo | Descrição |
+|---|---|
+| Objetivo | Verificar se os produtos são ordenados alfabeticamente em ordem crescente. |
+| Pré-condições | Usuário autenticado e catálogo disponível. |
+| Passos | 1. Localizar o campo de ordenação. 2. Selecionar Name (A to Z). 3. Verificar a sequência dos produtos. |
+| Resultado esperado | Os produtos devem ser apresentados em ordem alfabética crescente. |
+| Resultado obtido | Ordenação A-Z correta. |
+| Status | Aprovado*. |
+
+### CT008 — Ordenação por nome (Z–A)
+
+| Campo | Descrição |
+|---|---|
+| Objetivo | Verificar se os produtos são ordenados alfabeticamente em ordem decrescente. |
+| Pré-condições | Usuário autenticado e catálogo disponível. |
+| Passos | 1. Localizar o campo de ordenação. 2. Selecionar Name (Z to A). 3. Verificar a sequência dos produtos. |
+| Resultado esperado | Os produtos devem ser apresentados em ordem alfabética decrescente. |
+| Resultado obtido | Ordenação Z-A correta. |
+| Status | Aprovado. |
+
+### CT009 — Ordenação por preço (menor para maior)
+
+| Campo | Descrição |
+|---|---|
+| Objetivo | Verificar se os produtos são ordenados pelo preço em ordem crescente. |
+| Pré-condições | Usuário autenticado e catálogo disponível. |
+| Passos | 1. Localizar o campo de ordenação. 2. Selecionar Price (low to high). 3. Verificar a sequência dos preços. |
+| Resultado esperado | Os produtos devem ser apresentados do menor para o maior preço. |
+| Resultado obtido | Preço crescente correto. |
+| Status | Aprovado. |
+
+### CT010 — Ordenação por preço (maior para menor)
+
+| Campo | Descrição |
+|---|---|
+| Objetivo | Verificar se os produtos são ordenados pelo preço em ordem decrescente. |
+| Pré-condições | Usuário autenticado e catálogo disponível. |
+| Passos | 1. Localizar o campo de ordenação. 2. Selecionar Price (high to low). 3. Verificar a sequência dos preços. |
+| Resultado esperado | Os produtos devem ser apresentados do maior para o menor preço. |
+| Resultado obtido | Preço decrescente correto. |
+| Status | Aprovado. |
+
+## 5. Observações — Catálogo de produtos
+
+Durante a execução dos testes do catálogo, foi identificada uma possível inconsistência na nomenclatura de um dos produtos.
+
+**Produto identificado:** Test.allTheThings() T-Shirt (Red).
+
+**Descrição:** O nome do produto apresenta uma nomenclatura diferente dos demais itens do catálogo, podendo causar estranheza durante a visualização e análise da ordenação alfabética.
+
+**Observação:** A ocorrência foi registrada para análise, sem reprovação automática dos testes de ordenação.
