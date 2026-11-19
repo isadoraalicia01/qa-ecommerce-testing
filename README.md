@@ -43,6 +43,7 @@ Serão desenvolvidas atividades de planejamento, elaboração, execução e docu
 qa-ecommerce-testing/
 ├── README.md
 ├── plano-de-testes/
+│   └── plano-de-testes.md
 └── casos-de-teste/
     ├── casos-de-teste.md
     └── bug-report.md
@@ -50,6 +51,7 @@ qa-ecommerce-testing/
 
 ## Status do projeto
 
-Em desenvolvimento.
+Testes Manuais e Documentação: Concluído.
+Consultas SQL e Automoção (Ruby/Capybara): Em desenvolvimento.
 
 Projeto educacional desenvolvido para praticar conceitos de qualidade de software e construir um portfólio na área de QA.
