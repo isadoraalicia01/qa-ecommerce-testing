@@ -43,10 +43,9 @@ Serão desenvolvidas atividades de planejamento, elaboração, execução e docu
 qa-ecommerce-testing/
 ├── README.md
 ├── plano-de-testes/
-├── casos-de-teste/
-├── relatorios-de-bugs/
-├── evidencias/
-└── consultas-sql/
+└── casos-de-teste/
+    ├── casos-de-teste.md
+    └── bug-report.md
 ```
 
 ## Status do projeto
